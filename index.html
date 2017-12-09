@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/unslider.js"></script>
+    <link rel="stylesheet" href="css/unslider.css">
+    <title>Mi CV</title>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.slider').unslider({
+                arrows: false,
+                autoplay: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="general">
+        <div id="links">
+            <img src="img/Mi Foto.jpg" class="Matias" alt="Matias">
+            <ul class="listal">
+                <a href="#presentacion" class="presentacion radius">
+                    <li>Presentacion</li>
+                </a>
+                <br><br>
+                <a href="#formacion" class="formacion">
+                    <li>Formacion</li>
+                </a>
+                <br><br>
+                <a href="#experiencia" class="experiencia">
+                    <li>Experiencia</li>
+                </a>
+                <br><br>
+                <a href="#portfolio" class="portfolio">
+                    <li>Portflio</li>
+                </a>
+            </ul>
+        </div>
+        <div class="Presentacion">
+            <div id="presentacion">
+                <h1>Quien Soy?</h1>
+                <h2>Matias rosenberg</h2>
+                <h3>Front-End Jr.</h3>
+                <ul class="lista">
+                    <li>Nombre: Matias Rosenberg</li>
+                    <li>Edad: 18</li>
+                    <li>Direccion: Lopez Merino 3894</li>
+                    <li>Email: 1999matute@gmail.com</li>
+                    <li>Telefono: +541134302209</li>
+                    <li>Skype: Matias.Rosenberg</li>
+                </ul>
+                <p>Soy una persona con muchos intereses. Estoy terminando el secundario y tengo ganas de trabajar en un lugar donde pueda aprender y crecer como profesional. Siento que podría integrarme en un equipo de trabajo y soy muy responsable en las
+                    Tareas que me corresponden.</p>
+            </div>
+        </div>
+        <div class="Formacion">
+            <div id="formacion">
+                <h1>Formacion</h1>
+                <h3>Bachiller, colegio "Nuestra Señora de la Unidad", agronomia</h3>
+                <p>Estoy cursando la orientación de humanidades en mi secundario, elegí esta orientación ya que me parecía las más interesantes entre las que había para elegir. Me gusta mucho la parte de informática y ahí es donde tengo la mejor nota de todo
+                    El colegio, espero poder terminar el secundario y dedicarme a algo de programación.</p>
+                <br>
+                <h3>Curso de Aprende Programando</h3>
+                <p>Estoy metido en el curso de programación ya que es una rama de la informática la cual me está empezando a llamar mucho la atención y quería ver cómo era en general. Recién estoy aprendiendo a programar una página web y me está gustando
+                    Mucho.</p>
+            </div </div>
+            <div class="Experiencia">
+                <div id="experiencia">
+                    <h1>Experiencia</h1>
+                    <br>
+                    <p>Todavía estoy en secundario y no tengo experiencia laboral, pero el día de mañana me gustaría trabajar de cualquier cosa que requiera programación.</p>
+                </div>
+            </div>
+            <div class="Portfolio">
+                <div id="portfolio">
+                    <h1>Portfolio</h1>
+                    <div class="slider">
+                        <ul>
+                            <li>Cv</li>
+                            <li>Rompecabezas</li>
+                            <li>Pixel Art</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
