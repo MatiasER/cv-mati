@@ -135,7 +135,9 @@ p {
 }
 .rompecabezas {
     width: 150px;
+    border: 3px solid #B84A4A;
 }
 .cv {
     width: 150px;
+    border: 3px solid #B84A4A; 
 }
